@@ -5,13 +5,13 @@
     <title>Hola soy Jesús Romero</title> <!-- Título de la página -->
     <link rel="icon" type="image/png" href="favicon.png"/>
     <!-- Rel:Ícono - Type:Tipo de imagen(png o jpg) - href==src:Dirección de la img -->
-    <link rel="stylesheet" href="css/estilos.css"> <!-- href:Dirección de la nueva pestaña -->
+    <link rel="stylesheet" href="css/estilos.css"/> <!-- href:Dirección de la nueva pestaña -->
     <!--Invocar un nuevo document css donde nombrar los estilos-->
-    <style> 
+    <!-- <style>
       header {
         background: green;
       }
-    </style> <!-- Colocar los estilos dentro de css, en la misma pestaña -->
+    </style> - Colocar los estilos dentro de css, en la misma pestaña -->
   </head>
   <body>
     <header> <!-- Solo refiere al encabezado -->
@@ -24,18 +24,19 @@
         <nav> <!-- Naturalmente siempre va nav dentro de header -->
           <ol> <!-- ordener list -->
             <li> <!-- li: list item -->
-              <a href="./portafolio/index.html">Portafolio</a> <!-- Anchor: Ancla -->
+              <a class="link" href="./portafolio/index.html">Portafolio</a> <!-- Anchor: Ancla -->
               <!-- href:Dirección de la imagen -->
               <!-- Dentro de la carpeta proyecto, se crea carpeta "portafolio" con otro index.html -->
             </li>
             <li> <!-- li: Cada lista -->
-              <a href="#eventos">Experiencia</a> <!-- Va dentro -->
+              <a class="link" href="#eventos">Experiencia</a> <!-- Va dentro -->
               <!-- #: A donde nos va llevar es a la misma página(Ubicación) -->
               <!-- eventos es un id -->
             </li>
             <li>
-              <a href="#contacto">Trabajemos juntos</a>
+              <a class="link" href="#contacto">Trabajemos juntos</a>
               <!-- ./_/:Nos va llevar a una dirección de nuestro proyecto -->
+              <!-- Les asignamos una class a todas las anclas para identificarlas de una misma forma -->
             </li>
             <!-- href:A donde me llevará cuando haga click en el texto -->
           </ol> <!-- Se nombre en números -->

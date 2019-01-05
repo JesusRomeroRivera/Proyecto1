@@ -1,3 +1,19 @@
 header {
-  background: pink; /* !important */
+  background: pink; /* !important:Da prioridad a esta configuración */
+  color: red /* Cuando no hay ";", termina la regla */
 }
+/*
+  Regla: Desde el header hasta el cierre de llaves {}
+  Selectores:
+    -Selector de etiqueta: Afecta a toda la etiqueta
+      header - section - article
+    -Selector descendente: Afecta a la etiqueta exacta que indiques
+      body header div nav ol li a
+    -Selector de clase: Equivalente a un id, afecta a elementos que tengan una misma clase
+      .link
+    -Selector de id: Afecta a elemento con el idea (href)
+      #portafolio
+  Declaraciones: Todo lo de las llaves en sí
+  Propiedades: Cada línea (background - color)
+  Valores: El valor asignado
+*/
