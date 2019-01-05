@@ -3,28 +3,38 @@
   <head> <!-- Se refiere todo solo al área superior -->
     <meta charset="utf-8"/> <!-- Atributo "Charset" - Caracteres internacionales -->
     <title>Hola soy Jesús Romero</title> <!-- Título de la página -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <!-- Rel:Ícono - Type:Tipo de imagen(png o jpg) - href==src:Dirección de la img -->
   </head>
   <body>
     <header> <!-- Solo refiere al encabezado -->
-      <nav> <!-- Naturalmente siempre va nav dentro de header -->
-        <ol> <!-- ordener list -->
-          <li> <!-- li: list item -->
-            <a>Portafolio</a> <!-- Anchor: Ancla -->
-          </li>
-          <li> <!-- li: Cada lista -->
-            <a>Experiencia</a> <!-- Va dentro -->
-          </li>
-          <li>
-            <a>Trabajemos juntos</a>
-          </li>
-        </ol> <!-- Se nombre en números -->
-      </nav> <!-- Básicamente es un menú de navegación -->
+      <div> <!-- Zona donde aplicar estilos varios -->
+        <figure>
+          <img src="logo.jpg" alt="Logo de http://leonidasesteban.com"/>
+          <!-- alt: Texto que saldrá si la imagen no carga -->
+        </figure>
+        <nav> <!-- Naturalmente siempre va nav dentro de header -->
+          <ol> <!-- ordener list -->
+            <li> <!-- li: list item -->
+              <a href="#">Portafolio</a> <!-- Anchor: Ancla -->
+            </li>
+            <li> <!-- li: Cada lista -->
+              <a href="#">Experiencia</a> <!-- Va dentro -->
+            </li>
+            <li>
+              <a href="#">Trabajemos juntos</a>
+            </li>
+            <!-- href:A donde me llevará cuando haga click en el texto -->
+          </ol> <!-- Se nombre en números -->
+        </nav> <!-- Básicamente es un menú de navegación -->
+      </div>
     </header>
     <section>
       <h1> <!-- Título Nº1 -->
         ¡Hola! Soy <strong>Jesús Romero</strong> Desarrollador <br/><strong>Javascript</strong> con <br/>Pasión por la <strong>enseñanza</strong>
       </h1> <!-- <br/>: Espacio <strong>:Negrita -->
-      <img>imagen de portada
+      <img src="hero.jpg" width="500" height="300"/>
+      <!-- width:Ancho - height:Alto-->
     </section> <!-- Todos los section son partes de nuestro trabajo -->
     <section>
       <h2>Portafolio (Proyectos Destacados)</h2>
@@ -39,13 +49,14 @@
           Desde crear un vista-detalle, hasta patrones avanzados de navegación,
           este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma.
         </p>
+      <img src="platzi-video-react-native.png" width="500" alt="Proyecto del curso React Native">
       </article>
     </section>
     <section>
       <h2>Más sobre mi experiencia</h2>
       <article>
         <figure> <!-- Le da contexto semántico a las imágenes -->
-          <img/> <!-- Insertar una imagen - Depende de un atributo -->
+          <img src="platzi-conf.png" width="500" /> <!-- Insertar una imagen - Depende de un atributo -->
         </figure>
         <h3>PlatziConf México 2018</h3>
         <p>
