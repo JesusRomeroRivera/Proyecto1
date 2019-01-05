@@ -66,7 +66,19 @@
         <a>Ver Plática</a> <!-- Ancla que te lleva a un enlace externo -->
       </article>
     </section>
-    <section>sección contacto</section>
+    <section>
+      <form action="/suscripcion/">
+        <!-- form:formulario - action:A donde nos llevará (Sirve más para backend) -->
+        <h3>¿Creamos algo juntos?</h3>
+        <!-- <label for="email">Déjanos tu email</label> EQUIVALENTE AL PLACEHOLDER-->
+        <!-- for:(Id) Y te lleva al input con ese (Id) -->
+        <input id="email" type="text" placeholder="Déjanos tu email"/>
+        <!-- placeholder: Lo que dice antes de que yo haga click en el input-->
+        <!-- <input type="submit" value="texto del botón" EQUIVALENTE AL BUTTON-->
+        <!-- type:submit(Enviar) - value:Lo que dirá -->
+        <button>Enviar</button> <!-- Envía al action del form -->
+      </form>
+    </section>
     <footer>footer</footer> <!-- Solo refiere al pie de página -->
   </body>
 </html>
