@@ -17,3 +17,14 @@ header {
   Propiedades: Cada línea (background - color)
   Valores: El valor asignado
 */
+ /*
+  Colores:
+    -Palabras clave: Red - Blue - etc.
+    -Hexadecimales: #000000
+      Son 6 dígitos que van del 0 al F(16)
+        #123456 --> 12 son rojo - 34 son verde - 56 son azul
+    -hls() hlsa()
+    -Color más exacto es rgb() o rgba()
+  Pixeles:
+    -Unidades homogéneas de color - Básicamente manejan el tamaño.
+*/
