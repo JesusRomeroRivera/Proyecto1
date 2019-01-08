@@ -66,3 +66,16 @@ h1 {
   /*text-transform: uppercase;*/
   /*text-decoration: underline;*/
 }
+
+/* Todo lo que empiece con un "."
+   son una clase */
+
+.hero {
+  height: 300px; /* Es el alto de todo el elemento ".hero" */
+}
+.project-details {
+  width: 500px;
+}
+.project-imageContainer {
+  width: 500px;
+}
