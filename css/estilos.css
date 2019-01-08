@@ -63,8 +63,13 @@ h1 {
   font-size: 40px;
   line-height: 1.5; /* 1.5 --> 150% (De 0 a 1 es 0% a 100%) */
   letter-spacing: -.2px;
-  /*text-transform: uppercase;*/
+  /*text-transform: uppercase*/
   /*text-decoration: underline;*/
+  color: white;
+}
+
+h1 strong{
+  color: #026fff;
 }
 
 /* Todo lo que empiece con un "."
@@ -72,10 +77,40 @@ h1 {
 
 .hero {
   height: 300px; /* Es el alto de todo el elemento ".hero" */
+  background-image: url(../hero.jpg); /* ../:Salir de la carpeta */
+  background-size: 500px 300px;
+  /* background-size: width height */
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-color: #1b2127;
 }
 .project-details {
   width: 500px;
 }
 .project-imageContainer {
   width: 500px;
+}
+
+/*
+  background: Le da pie a las demás funciones. - Respecta al fondo.
+  background-image: Url que se usará como fondo del elemento.
+  background-color: Color de fondo.
+  background-size: Valores de alto y ancho.
+    -cover:
+    -contain:
+  background-position: Posición de la imagen dentro del elemento - Unidades de medida.
+    -center: Centro
+    -left: Izquierda
+    -top: Arriba
+    -right: Derecha
+  background-repeat: Método de repetición de la imagen de fondo.
+    -repeat: Que se repita normal.
+    -repeat-x: Que se repita en el eje X.
+    -repeat-y: Que se repita en el eje Y.
+    -no-repeat: Que no se repita.
+*/
+
+.header{
+  background-color: #1b2127;
+  color: white;
 }
