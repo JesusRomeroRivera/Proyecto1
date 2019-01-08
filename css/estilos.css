@@ -42,6 +42,27 @@ h4,
 h5,
 h6{
   font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+  /* font-style: italic; */
 }
 /* Aplicar estilo a varias etiquetas con ","
    sans-serif --> Predeterminado*/
+/*
+  color: El color.
+  line-height: Altura desde la base del texto hasta la base de la siguiente línea de texto.
+  font-size: Tamaño del texto, admite cualquier unidad de medida disponible.
+  letter-spacing: Espaciado entre las letras del texto.
+  font-weight: Transparencia (negrita-normal-light) - Se indica en múltiplos de 100 o keywords.
+  text-decoration: Decorado (subrayado-tachado-subrayado superior).
+  text-transform: Transformar el estado de mayúsculas / minúsculas.
+    -uppercase para mayúsculas sostenidas.
+    -lowercase para minúsculas sostenidas.
+    -capitalize para las primeras letras.
+*/
+h1 {
+  font-size: 40px;
+  line-height: 1.5; /* 1.5 --> 150% (De 0 a 1 es 0% a 100%) */
+  letter-spacing: -.2px;
+  /*text-transform: uppercase;*/
+  /*text-decoration: underline;*/
+}
