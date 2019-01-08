@@ -2,6 +2,7 @@ header {
   background: pink; /* !important:Da prioridad a esta configuración */
   color: red /* Cuando no hay ";", termina la regla */
 }
+
 /*
   Regla: Desde el header hasta el cierre de llaves {}
   Selectores:
@@ -18,7 +19,7 @@ header {
   Valores: El valor asignado
 */
  /*
-  Colores:
+  Colores: https://developer.mozilla.org/es/docs/Web/CSS/color_value
     -Palabras clave: Red - Blue - etc.
     -Hexadecimales: #000000
       Son 6 dígitos que van del 0 al F(16)
@@ -28,3 +29,19 @@ header {
   Pixeles:
     -Unidades homogéneas de color - Básicamente manejan el tamaño.
 */
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+/* Font familiy: Tipo de letra - Si no encuentra el 1ro, aplica el 2do
+   Cuando son varias palabras entre comillas */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: "Fjalla One", sans-serif;
+}
+/* Aplicar estilo a varias etiquetas con ","
+   sans-serif --> Predeterminado*/
