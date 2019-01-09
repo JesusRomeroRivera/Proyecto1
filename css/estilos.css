@@ -84,6 +84,26 @@ h1 strong{
   background-position-x: right;
   background-color: #1b2127;
 }
+
+.project {
+  /*
+    border-top: 10px solid red;
+    border-right: 10px solid green;
+    border-left: 10px solid orange;
+    border-bottom: 10px solid pink;
+    border (top-left-right-bottom): tamaño - tipo - estilo.
+    border-top-color: red;
+    border-width: 15px;
+    border-style: solid;
+  */
+  border: 1px solid gray;
+  border-radius: 10px;
+  /* border-top-left-radius:50px; */
+  /* Por alguna razón que hasta ahora no explico
+     el borde también afecta de modo independiente
+     a la imagenContainer... */
+}
+
 .project-details {
   width: 500px;
 }
@@ -113,4 +133,9 @@ h1 strong{
 .header{
   background-color: #1b2127;
   color: white;
+}
+
+.header a{
+  color: white;
+  text-decoration: none; /* Ya no se ponen moraditos */
 }
