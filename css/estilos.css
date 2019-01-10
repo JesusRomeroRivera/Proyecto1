@@ -123,6 +123,11 @@ h1 {
   background: white;
 }
 
+/*
+  Modelo de caja es básicamente el conjunto de margin - border - padding y el elemento
+  El ancho es solo el elemento - padding - border
+  box-sizing:border-box: El ancho solo será el que le demos, jamás crecerá.
+*/
 .project-details {
   width: 500px;
 }
@@ -158,3 +163,22 @@ h1 {
   color: white;
   text-decoration: none; /* Ya no se ponen moraditos */
 }
+
+/*
+  block: el elemento intenta abarcar todo el ancho posible.
+  inline: lo pone en linea, descartando las propiedades width y height.
+  inline-block: combina block e inline, respeta dimensiones indicadas width y height.
+    Coloca el elemento en línea (al costado) de elementos que tengan display: inline o inline-block.
+  flex: asume algunas propiedades por defecto que favorecen la alineación de los elementos internos.
+  grid: similar a flex, asume algunas propiedades por defecto organizando los contenidos en filas y columnas.
+  none: oculta el elemento.
+*/
+
+/*
+  Propiedades de flexbox: https://platzi.com/clases/1350-html5-css3/13369-propiedades-de-flexbox/
+  flex: es como "estrecho" - display: flex
+  flex-wrap: nowrap --> por defecto
+  flex-wrap: wrap --> Si no hay más ancho, van cayendo los elementos
+  flex-shrink: qué tanto se pueden encoger los elementos
+  flex-direction: column - row(Horizontal)
+*/
