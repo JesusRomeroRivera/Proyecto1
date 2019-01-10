@@ -182,3 +182,21 @@ h1 {
   flex-shrink: qué tanto se pueden encoger los elementos
   flex-direction: column - row(Horizontal)
 */
+
+/*
+  flex-start: alinea elementos al inicio del espacio.
+  flex-end: alinea elementos al final, a la derecha.
+  center: alinea elementos al centro del espacio.
+  space-between: distribuye elementos con espacio proporcional entre ellos.
+  space-evenly: distribuye elementos con espacio proporcional e igual entre ellos
+    (incluyendo el primer y último elementos con respecto a los estremos del espacio disponible).
+  space-around: similar a space-evenly pero tanto en el primero como en el último elemento,
+    el espacio hacia los extremos es la mitad del espacio usado entre los elementos.
+*/
+
+/*
+  Para jugar con el flex se usa justify-content(H) y align-items(V)
+  Si en caso flex-direction: column - Se invierten los papeles de H y V
+  Y por último, todo flex se hace en el elemento padre, para que afecta a sus hijos
+  y a sus hijos los tocamos de manera independiente
+*/
