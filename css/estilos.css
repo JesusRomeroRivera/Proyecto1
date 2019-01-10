@@ -32,6 +32,7 @@ header {
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
 }
 /* Font familiy: Tipo de letra - Si no encuentra el 1ro, aplica el 2do
    Cuando son varias palabras entre comillas */
@@ -91,6 +92,10 @@ h1 {
   El margen entre dos áreas es el margen mayor de una de ellas */
 }
 
+.portfolio{
+  background: #fafafa;
+}
+
 .project {
   /*
     border-top: 10px solid red;
@@ -108,8 +113,14 @@ h1 {
   /* Por alguna razón que hasta ahora no explico
      el borde también afecta de modo independiente
      a la imagenContainer... */
+  margin: 10px;
   margin-bottom: 15px;
   /* Solo margen abajo */
+  padding: 20px;
+  /* padding: el relleno, cumple la misma función question
+     el margin, al padding le afecta el background, y los
+     separa el borde. */
+  background: white;
 }
 
 .project-details {
