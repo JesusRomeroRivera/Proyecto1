@@ -59,14 +59,6 @@ h6{
     -lowercase para minúsculas sostenidas.
     -capitalize para las primeras letras.
 */
-h1 {
-  font-size: 40px;
-  line-height: 1.5; /* 1.5 --> 150% (De 0 a 1 es 0% a 100%) */
-  letter-spacing: -.2px;
-  /*text-transform: uppercase*/
-  /*text-decoration: underline;*/
-  color: white;
-}
 
 h1 strong{
   color: #026fff;
@@ -83,6 +75,20 @@ h1 strong{
   background-repeat: no-repeat;
   background-position-x: right;
   background-color: #1b2127;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5; /* 1.5 --> 150% (De 0 a 1 es 0% a 100%) */
+  letter-spacing: -.2px;
+  /*text-transform: uppercase*/
+  /*text-decoration: underline;*/
+  color: white;
+  margin: 100px 520px 70px 30px;
+  /* margin: top right bottom left
+  margin: top-bottom right-left
+  margin: auto(Mitad en ambos lados)
+  El margen entre dos áreas es el margen mayor de una de ellas */
 }
 
 .project {
@@ -102,6 +108,8 @@ h1 strong{
   /* Por alguna razón que hasta ahora no explico
      el borde también afecta de modo independiente
      a la imagenContainer... */
+  margin-bottom: 15px;
+  /* Solo margen abajo */
 }
 
 .project-details {
